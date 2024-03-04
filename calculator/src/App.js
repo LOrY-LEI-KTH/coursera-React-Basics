@@ -31,7 +31,7 @@ function App() {
  
   function resetInput(e) { 
     e.preventDefault();
-    inputRef.current.value = undefined; // reset the input field to show only the placeholder.
+    inputRef.current.value = 0;
   }; 
  
   function resetResult(e) { 
